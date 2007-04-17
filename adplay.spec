@@ -1,6 +1,6 @@
 %define name adplay
-%define version 1.5
-%define release %mkrel 6
+%define version 1.6
+%define release %mkrel 1
 
 Summary: AdLib music player for the command line
 Name: %{name}
@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libadplug-devel >= 1.4
 BuildRequires: libSDL-devel
 BuildRequires: esound-devel
+BuildRequires: libao-devel
 BuildRequires: chrpath
 
 %description
@@ -45,4 +46,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README NEWS TODO AUTHORS ChangeLog
 %_bindir/adplay
 %_mandir/man1/adplay.1*
-
