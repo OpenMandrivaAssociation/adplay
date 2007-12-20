@@ -10,6 +10,7 @@ Source0: http://prdownloads.sourceforge.net/adplug/%{name}-%{version}.tar.bz2
 License: GPL
 Group: Sound
 URL: http://adplug.sourceforge.net
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libadplug-devel >= 1.4
 BuildRequires: libSDL-devel
 BuildRequires: esound-devel
