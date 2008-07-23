@@ -1,6 +1,6 @@
 %define name adplay
 %define version 1.6
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: AdLib music player for the command line
 Name: %{name}
