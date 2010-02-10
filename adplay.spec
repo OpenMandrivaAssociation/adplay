@@ -7,7 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://prdownloads.sourceforge.net/adplug/%{name}-%{version}.tar.bz2
-License: GPL
+License: GPLv2+
 Group: Sound
 URL: http://adplug.sourceforge.net
 BuildRoot: %{_tmppath}/%{name}-buildroot
@@ -16,6 +16,7 @@ BuildRequires: libSDL-devel
 BuildRequires: alsa-lib-devel
 BuildRequires: esound-devel
 BuildRequires: libao-devel
+BuildRequires: zlib-devel
 BuildRequires: chrpath
 
 %description
