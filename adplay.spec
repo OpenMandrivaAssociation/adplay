@@ -1,6 +1,6 @@
 %define name adplay
-%define version 1.6
-%define release %mkrel 5
+%define version 1.7
+%define release %mkrel 1
 
 Summary: AdLib music player for the command line
 Name: %{name}
@@ -11,8 +11,9 @@ License: GPL
 Group: Sound
 URL: http://adplug.sourceforge.net
 BuildRoot: %{_tmppath}/%{name}-buildroot
-BuildRequires: libadplug-devel >= 1.4
+BuildRequires: libadplug-devel >= 2.2
 BuildRequires: libSDL-devel
+BuildRequires: alsa-lib-devel
 BuildRequires: esound-devel
 BuildRequires: libao-devel
 BuildRequires: chrpath
