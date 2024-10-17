@@ -9,7 +9,7 @@ Release: 	%{release}
 Source0: 	http://prdownloads.sourceforge.net/adplug/%{name}-%{version}.tar.bz2
 License: 	GPLv2+
 Group: 		Sound
-URL: 		http://adplug.sourceforge.net
+URL: 		https://adplug.sourceforge.net
 
 BuildRequires: pkgconfig(adplug) >= 2.2
 BuildRequires: pkgconfig(sdl)
