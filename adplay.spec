@@ -11,6 +11,11 @@ License: 	GPLv2+
 Group: 		Sound
 URL: 		https://adplug.sourceforge.net
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(adplug) >= 2.2
 BuildRequires: pkgconfig(sdl)
 BuildRequires: pkgconfig(alsa)
